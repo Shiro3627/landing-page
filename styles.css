@@ -1,0 +1,38 @@
+.container{
+    display: flex;
+}
+
+body{
+    margin: 0%;
+}
+
+.header{
+    width: 100%;
+    background-color: #92818b;
+    flex-direction: row;
+}
+
+.section1{
+    width: 100%;
+    background-color: #92818b;
+}
+
+.section2{
+    width: 100%;
+    background-color: #EBDCCB;
+}
+
+.section3{
+    width: 100%;
+    background-color: #C6BCC8;
+}
+
+.section4{
+    width: 100%;
+    background-color: #EBDCCB;
+}
+
+.cr{
+    width: 100%;
+    background-color: #92818b;
+}
