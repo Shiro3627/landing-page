@@ -105,6 +105,7 @@ header {
   .image-wrapper img {
     max-width: 100%;
     height: auto;
+    border: 3px solid #92818b;
   }
   
   /* Section 3 styling */
@@ -120,7 +121,7 @@ header {
     justify-content: center;
   }
   
-  /* Section 4 styling */
+    /* Section 4 styling */
   .section4 {
     background-color: #EBDCCB;
     padding: 20px;
@@ -143,6 +144,7 @@ header {
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
+    border-radius: 8px;
   }
   
   .btn2:hover {
