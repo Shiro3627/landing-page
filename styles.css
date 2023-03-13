@@ -5,19 +5,21 @@ body{
 header {
     background-color: #92818b;
     color: white;
-    padding: 20px;
+    padding: 20px 50px 20px 50px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.logo{
+    display: flex;
+    padding-left: 50px;
   }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-    margin: 0;
-  }
-  
+
   .links ul {
     list-style-type: none;
     margin: 0;
-    padding: 0;
+    padding: 20px 100px 0px 0px;  
     display: flex;
     flex-direction: row;
   }
@@ -29,20 +31,26 @@ header {
   .links a {
     color: white;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 24px;
   }
-  
+  .links a:hover{
+    color: #EBDCCB;
+  }
   /* Section 1 styling */
+
   .section1 {
     background-color: #92818b;
     color: white;
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-between;
-    padding: 20px;
+    justify-content: center;
+    padding: 20px 0px 100px 0px;
   }
-  
+
+  .keyboard {
+    padding: 0px 0px 0px 70px;
+  }
   .title1 {
     font-size: 48px;
     margin: 0;
@@ -60,6 +68,7 @@ header {
     padding: 10px 20px;
     cursor: pointer;
     transition: background-color 0.3s ease-in-out;
+    border-radius: 8px;
   }
   
   .btn1:hover {
@@ -123,7 +132,7 @@ header {
   
   h4 {
     font-size: 24px;
-    margin: 0 0 20px 0;
+    margin: 0;
   }
   
   .btn2 {
@@ -152,3 +161,6 @@ header {
     margin: 0;
   }
   
+.section4 p {
+    padding-bottom: 10px;
+}
